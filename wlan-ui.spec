@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	wlan-ui - UI for selecting and connecting to WLAN access points (APs)
-#Summary(pl):	
+Summary(pl):	wlan-ui - interfejs u¿ytkownika do wybierania i ³±czenia siê z AP WLAN-ów
 Name:		wlan-ui
 Version:	0.5
 Release:	1
@@ -26,10 +26,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-wlan-ui.pl is a program to connect to wireless networks.  It can be run
+wlan-ui.pl is a program to connect to wireless networks. It can be run
 as a GUI which will offer a list of available networks to connect to.
 
-#%description -l pl
+%description -l pl
+wlan-ui.pl to program do ³±czenia siê z sieciami bezprzewodowymi. Mo¿e
+byæ uruchamiany jako graficzny interfejs u¿ytkownika oferuj±cy listê
+dostêpnych sieci do po³±czenia siê z nimi.
 
 %prep
 %setup -q -c -T
