@@ -1,0 +1,11 @@
+--- wlan-ui.pl	2006-07-24 11:52:54.833869250 +0200
++++ wlan-ui.pl.new	2006-07-24 14:22:11.953654250 +0200
+@@ -497,7 +497,7 @@
+     ## find device in proc
+     open WLANDEV, '/proc/net/wireless';
+     while (<WLANDEV>) {
+-        if ($_ =~/(eth|wlan)(\d)/) {
++        if ($_ =~/\b(eth|wlan|ra)(\d)/) {
+             $WLANdevice = $1.$2;
+         }
+     }
