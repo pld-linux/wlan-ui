@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	wlan-ui - UI for selecting and connecting to WLAN access points (APs)
-Summary(pl.UTF-8):   wlan-ui - interfejs użytkownika do wybierania i łączenia się z AP WLAN-ów
+Summary(pl.UTF-8):	wlan-ui - interfejs użytkownika do wybierania i łączenia się z AP WLAN-ów
 Name:		wlan-ui
 Version:	0.5
 Release:	1
